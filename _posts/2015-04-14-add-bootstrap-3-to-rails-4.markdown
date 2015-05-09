@@ -20,7 +20,7 @@ gem 'autoprefixer-rails'
 
 autoprefixer-rails adds vendor prefixes to the CSS.
 
-Run `bundle install` to bring th gems into your app.
+Run `bundle install` to bring the gems into your app.
 
 Add `//= require bootstrap-sprockets` on the line above
  `//= require_tree .` in your `/app/assets/javascripts/application.js` file.
