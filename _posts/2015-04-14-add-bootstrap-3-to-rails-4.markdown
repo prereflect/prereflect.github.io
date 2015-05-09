@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Add Bootstrap 3 to Rails 4"
-date: "2015-05-08 14:34:06 -0700"
+date: "2015-04-14 14:34:06 -0700"
 ---
 
 In this post I will go through the process to add
