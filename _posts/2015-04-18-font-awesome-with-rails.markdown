@@ -8,12 +8,12 @@ date: "2015-04-18 16:42:40 -0700"
 Rails project. Font Awesome icons are scalable vector graphics in a font package
  that enable you to use CSS to change the appearance of the icons.
 
-These instructions will show how to install Font Awesome for use with the [Sass]
-(http://sass-lang.com/) CSS extension language. Yes, There is a gem for that!
+These instructions will show how to install Font Awesome for use with the [Sass](http://sass-lang.com/)
+CSS extension language. Yes, There is a gem for that!
 
 <h2>Add the Gem</h2>
 
-Add [font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass] to
+Add [font-awesome-sass](https://github.com/FortAwesome/font-awesome-sass) to
  your `Gemfile`.
 
 {% highlight ruby linenos %}
