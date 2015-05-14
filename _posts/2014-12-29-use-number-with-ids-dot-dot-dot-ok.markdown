@@ -5,7 +5,7 @@ date: 2014-12-29 18:49:57 -0800
 comments: true
 categories: [CSS, jQuery]
 ---
-I ended up spinninng my wheels for a couple of hours trying to find out why a 
+I ended up spinning my wheels for a couple of hours trying to find out why a 
 simple jQuery event handler would not work. Turns out I for got the # for the 
 IDs that were targeted.
 

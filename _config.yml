@@ -10,3 +10,6 @@ github_username:  twoller
 
 # Build settings
 markdown: kramdown
+
+paginate: 5
+
