@@ -6,6 +6,8 @@
   <body>
 
     {% include header.html %}
+    <div class="page-content">
+    <div class="wrapper">
 
     <!-- This loops through the paginated posts -->
     {% for post in paginator.posts %}
@@ -31,6 +33,8 @@
       {% else %}
         <span class="next ">Next</span>
       {% endif %}
+   </div>
+    </div>
     </div>
 
     {% include footer.html %}
