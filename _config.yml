@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   My journey to programming and codeship.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: 'http://woller.io'  # the base hostname & protocol for your site
-twitter_username: woller_io
-github_username:  twoller
+twitter_username: prereflect
+github_username:  prereflect
 
 # Build settings
 markdown: kramdown
