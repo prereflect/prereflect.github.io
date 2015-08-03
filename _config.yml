@@ -1,22 +1,12 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title: Toby and Code
+email: toby@woller.io
+description: > # this means to ignore newlines until "baseurl:"
+  My journey to professional programmer.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: 'http://woller.io' # the base hostname & protocol for your site
+twitter_username: prereflect
+github_username:  prereflect
 
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            Toby & Code
-tagline:          'My coding journey'
-description:      'I am documenting my journey to becomming a professional 
-                   programmer. <a href="https://twitter.com/prereflect" 
-                   target="_blank">@prereflect</a>'
-url:              http://woller.io
-
-author:
-  name:           'Toby Woller'
-
-paginate:         5
-
-# Custom vars
-version:          1.0.0
+# Build settings
+markdown: kramdown
