@@ -5,5 +5,5 @@ permalink: /about/
 ---
 ![Profile Avatar]({{ site.url }}/assets/images/profile_avatar_woller.png)
 
-My journey to prefessional programmer.
+My journey to professional programmer.
 
