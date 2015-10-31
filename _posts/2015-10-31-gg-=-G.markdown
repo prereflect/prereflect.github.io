@@ -1,0 +1,37 @@
+---
+layout: post
+title: "gg=G # Reformat Code in Vim"
+date: "2015-10-31 09:32:00 -0700"
+---
+When your formatting in Vim gets a little wonky `gg=G` comes to the rescue.
+
+{% highlight ruby %}
+def permute(num)
+ array_str = num.to_s.split('').permutation.to_a
+   array_int = []
+
+    array_str.each do |elem|
+      array_int << elem.join.to_i
+    end
+
+       array_int
+end
+{% endhighlight %}
+Turns into this...
+
+{% highlight ruby %}
+def permute(num)
+  array_str = num.to_s.split('').permutation.to_a
+  array_int = []
+
+  array_str.each do |elem|
+    array_int << elem.join.to_i
+  end
+
+  array_int
+end
+{% endhighlight %}
+
+`gg` brings you to the beginning of the file
+`=` is the indent command which takes the motion
+`G` to the end of the file.
