@@ -6,4 +6,4 @@ comments: true
 categories: [HTTP, Tealeaf Academy, URL]
 ---
 
-![Components of a URL]({{ site.url }}/assets/images/url_components.png)
+![Components of a URL](/assets/images/url_components.png)
